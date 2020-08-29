@@ -1,0 +1,43 @@
+.main-title{
+  background: #D14D42;
+}
+
+#header-title{
+  color: #fff;
+  font-size: 22px;
+}
+
+.icon{
+  color: #fff !important;
+}
+
+.ibcBtn {
+  margin:0;
+  padding: 10px 20px;
+  border-width: 0;
+  background: #89715a;
+  border-color: #89715a;
+  cursor: pointer;
+  position: relative;
+  font-family: inherit;
+  font-size: 1.2em;
+  color: #fff;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #89715a;
+  border-radius: 20px;
+}
+
+.swal-modal {
+  width: 50%;
+}
+
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: .65
+}
+
